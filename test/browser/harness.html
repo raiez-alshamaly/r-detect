@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>r-detect harness</title>
+    <style>
+      :root {
+        color-scheme: light dark;
+        font: 15px/1.5 system-ui, sans-serif;
+      }
+      body {
+        margin: 0 auto;
+        max-width: 720px;
+        padding: 16px;
+      }
+      h1 {
+        font-size: 1.25rem;
+        margin: 0 0 4px;
+      }
+      p {
+        margin: 0 0 12px;
+      }
+      button {
+        font: inherit;
+        padding: 8px 14px;
+      }
+      table {
+        border-collapse: collapse;
+        margin: 12px 0;
+        width: 100%;
+      }
+      th,
+      td {
+        border-bottom: 1px solid color-mix(in srgb, currentColor 20%, transparent);
+        padding: 4px 8px 4px 0;
+        text-align: left;
+        vertical-align: top;
+      }
+      td.digest {
+        font-family: ui-monospace, monospace;
+        overflow-wrap: anywhere;
+      }
+      td.number {
+        text-align: right;
+        white-space: nowrap;
+      }
+      pre {
+        background: color-mix(in srgb, currentColor 8%, transparent);
+        overflow: auto;
+        padding: 12px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>r-detect harness</h1>
+    <p>
+      Reads this browser twice with the built library and compares the two readings. Every part
+      that could be read should match its repeat; a part that differs between two reads of one
+      browser is being randomised and carries no information.
+    </p>
+    <button id="run" type="button">Read again</button>
+    <p id="summary" role="status">Reading...</p>
+    <table>
+      <thead>
+        <tr>
+          <th scope="col">Part</th>
+          <th scope="col">Digest</th>
+          <th scope="col">ms</th>
+          <th scope="col">Repeat</th>
+        </tr>
+      </thead>
+      <tbody id="parts"></tbody>
+    </table>
+    <h2>Reading</h2>
+    <pre id="reading"></pre>
+
+    <script type="module">
+      import { collect, PART_KEYS } from '/dist/index.js';
+      import { compare } from '/dist/score.js';
+
+      const byId = (id) => document.getElementById(id);
+
+      function cell(row, text, className) {
+        const td = document.createElement('td');
+        td.textContent = text;
+        if (className) td.className = className;
+        row.appendChild(td);
+      }
+
+      async function run() {
+        byId('run').disabled = true;
+        byId('summary').textContent = 'Reading...';
+        const first = await collect({ timings: true });
+        const second = await collect({ schedule: 'now', timings: true });
+        const result = compare(first.parts, second.parts);
+
+        const body = byId('parts');
+        body.replaceChildren();
+        for (const key of PART_KEYS) {
+          const row = document.createElement('tr');
+          cell(row, key);
+          cell(row, first.parts[key] ?? 'not readable', 'digest');
+          cell(row, String(first.timings?.[key] ?? ''), 'number');
+          cell(row, result.parts[key]);
+          body.appendChild(row);
+        }
+        byId('summary').textContent =
+          `Status ${first.status}. ${Object.keys(first.parts).length} of ${PART_KEYS.length} parts read ` +
+          `in ${first.timings?.total} ms (waited ${first.timings?.wait} ms to start). ` +
+          `Repeat score ${result.score}, band ${result.band}.`;
+        byId('reading').textContent = JSON.stringify(first, null, 2);
+        // For automated checks.
+        window.rDetect = { first, second, result };
+        byId('run').disabled = false;
+      }
+
+      byId('run').addEventListener('click', run);
+      run();
+    </script>
+  </body>
+</html>
