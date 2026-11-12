@@ -21,3 +21,5 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 - Golden vectors for recipe 1 in `test/vectors/recipe-1.json`, checked by `npm run vectors`.
 - A browser harness page, served by `npm run harness`.
 - Documentation: `docs/signals.md`, `docs/scoring.md` and `docs/privacy.md`.
+
+[0.1.0]: https://github.com/raiez-alshamaly/r-detect/releases/tag/v0.1.0
