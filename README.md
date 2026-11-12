@@ -16,6 +16,8 @@ r-detect is browser fingerprinting. Read [Privacy and security](#privacy-and-sec
 npm install r-detect
 ```
 
+The package is published on npm as [r-detect](https://www.npmjs.com/package/r-detect). Releases and their notes are on the [releases page](https://github.com/raiez-alshamaly/r-detect/releases).
+
 The browser entry needs a secure context (HTTPS or localhost). The server entry needs Node 20 or later, or any runtime with global WebCrypto.
 
 ## Quick start
