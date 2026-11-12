@@ -1,0 +1,857 @@
+{
+  "recipe": 1,
+  "partDigest": [
+    {
+      "part": "darkMode",
+      "value": "dark",
+      "json": "[\"darkMode\",\"dark\"]",
+      "digest": "4b4c383b32e37b4886340448d1f92a3d5a03eaba578f7ec81c3ee442938ceba0"
+    },
+    {
+      "part": "darkMode",
+      "value": "light",
+      "json": "[\"darkMode\",\"light\"]",
+      "digest": "17b556258ebfd6bc159c8bd26dff13322f7ae4f2755e27bbe455e4cb1fbb72d2"
+    },
+    {
+      "part": "physScreen",
+      "value": [
+        1080,
+        2400
+      ],
+      "json": "[\"physScreen\",[1080,2400]]",
+      "digest": "c2308be6ad4d757b20061e5bc9a6549037e7cb990bf414c9e498a64f1d785ad0"
+    },
+    {
+      "part": "physScreen",
+      "value": [
+        1440,
+        2560
+      ],
+      "json": "[\"physScreen\",[1440,2560]]",
+      "digest": "cfead99a7f36f082b0902743440d85e6470825a3c34be8456890b118cda6a4fc"
+    },
+    {
+      "part": "model",
+      "value": "redmi note 14",
+      "json": "[\"model\",\"redmi note 14\"]",
+      "digest": "cdbdc5090a7858b9789d767322024c48c8f446aad1c44ac41c9fcb17e169c9b5"
+    },
+    {
+      "part": "model",
+      "value": "sm-a546b",
+      "json": "[\"model\",\"sm-a546b\"]",
+      "digest": "8b1c6ffc5fa19e049c9f04b21e1d7ded1c86735a0146a7046eb0d5fd217a886c"
+    },
+    {
+      "part": "osVersion",
+      "value": "android:16",
+      "json": "[\"osVersion\",\"android:16\"]",
+      "digest": "b3784d9bae965c704cf361db84fde7bd42a9e54a82cf797d2965fbda69b6ea85"
+    },
+    {
+      "part": "osVersion",
+      "value": "ios:19",
+      "json": "[\"osVersion\",\"ios:19\"]",
+      "digest": "f47d14bdffb19ae21e3dfaed0ecee32f4a59c84be1741b9d96c64b2f7a75ab15"
+    },
+    {
+      "part": "osVersion",
+      "value": "windows:15",
+      "json": "[\"osVersion\",\"windows:15\"]",
+      "digest": "ceb5552f41aa10984bde9c7c57fb9605c0e33d1c1018617bb5ea4e25d6104174"
+    },
+    {
+      "part": "rendererModel",
+      "value": "mali-g57 mc2",
+      "json": "[\"rendererModel\",\"mali-g57 mc2\"]",
+      "digest": "14e6ffb47b5ccd949eeee351d8f01b513c0a0ba9e47494b2ca13b3682504aa1f"
+    },
+    {
+      "part": "rendererModel",
+      "value": "intel(r) iris(r) xe graphics",
+      "json": "[\"rendererModel\",\"intel(r) iris(r) xe graphics\"]",
+      "digest": "d4078f7bca9a3b2785513485bdfe8219e3a9e29a80907e7fe779442e2bc30262"
+    },
+    {
+      "part": "fonts",
+      "value": [],
+      "json": "[\"fonts\",[]]",
+      "digest": "9d32ee1def05d1fbe458fdc335f8feeb9a245bd4f90585c5ae91bd494cc237d5"
+    },
+    {
+      "part": "fonts",
+      "value": [
+        "Arial",
+        "Noto Sans",
+        "Roboto"
+      ],
+      "json": "[\"fonts\",[\"Arial\",\"Noto Sans\",\"Roboto\"]]",
+      "digest": "95de2ad2db3fa15fef616e2b17608f5b86a86d68c3e63c9b91347ffc1863e66f"
+    },
+    {
+      "part": "localeFormat",
+      "value": [
+        "Europe/Berlin",
+        "2.1.2020, 04:04:05",
+        "1.234.567,891",
+        "h23"
+      ],
+      "json": "[\"localeFormat\",[\"Europe/Berlin\",\"2.1.2020, 04:04:05\",\"1.234.567,891\",\"h23\"]]",
+      "digest": "a1313af8e5fd1aabc38f04e155bc53e63ea9a0845b1c5cb0a03fb7b7e90ad5f5"
+    },
+    {
+      "part": "localeFormat",
+      "value": [
+        "Asia/Riyadh",
+        "\u0662\u200f/\u0661\u200f/\u0662\u0660\u0662\u0660\u060c \u0666:\u0660\u0664:\u0660\u0665 \u0635",
+        "\u0661\u066c\u0662\u0663\u0664\u066c\u0665\u0666\u0667\u066b\u0668\u0669\u0661",
+        "h12"
+      ],
+      "json": "[\"localeFormat\",[\"Asia/Riyadh\",\"\u0662\u200f/\u0661\u200f/\u0662\u0660\u0662\u0660\u060c \u0666:\u0660\u0664:\u0660\u0665 \u0635\",\"\u0661\u066c\u0662\u0663\u0664\u066c\u0665\u0666\u0667\u066b\u0668\u0669\u0661\",\"h12\"]]",
+      "digest": "f15adcd68d2b75663c138ad85f5db52088cb521f07d77cca4c464ef905db425b"
+    },
+    {
+      "part": "localeFormat",
+      "value": [
+        "America/New_York",
+        "1/1/2020, 10:04:05\u202fPM",
+        "1,234,567.891",
+        "h12"
+      ],
+      "json": "[\"localeFormat\",[\"America/New_York\",\"1/1/2020, 10:04:05\u202fPM\",\"1,234,567.891\",\"h12\"]]",
+      "digest": "051c3f0dbb5b93d41a4a1fad86ba790ffba6eccb688364ea3255198e1fa3593a"
+    },
+    {
+      "part": "localeFormat",
+      "value": [
+        null,
+        "1/2/2020, 3:04:05 AM",
+        "1,234,567.891",
+        null
+      ],
+      "json": "[\"localeFormat\",[null,\"1/2/2020, 3:04:05 AM\",\"1,234,567.891\",null]]",
+      "digest": "009eb7ca72ece8182788e71002672cd86835022cbcd28debec91155c933df363"
+    },
+    {
+      "part": "audioDisplay",
+      "value": [
+        48000,
+        2,
+        "srgb",
+        "standard"
+      ],
+      "json": "[\"audioDisplay\",[48000,2,\"srgb\",\"standard\"]]",
+      "digest": "9b88c1903548d04453ba7977d917e25fb2c186a240ef9c79130e35273d42589d"
+    },
+    {
+      "part": "audioDisplay",
+      "value": [
+        44100,
+        2,
+        "p3",
+        "high"
+      ],
+      "json": "[\"audioDisplay\",[44100,2,\"p3\",\"high\"]]",
+      "digest": "fc9e1fc71ec7a2c5508922fd424d173e1a9dab54539118b121f91bb773dc0cd9"
+    },
+    {
+      "part": "audioDisplay",
+      "value": [
+        48000,
+        2,
+        null,
+        null
+      ],
+      "json": "[\"audioDisplay\",[48000,2,null,null]]",
+      "digest": "da4fcc094761f1b2d83c025b2687fce1c88f879046d319a342b9b64c2efd769f"
+    },
+    {
+      "part": "glHardware",
+      "value": [
+        16384,
+        [
+          16384,
+          16384
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          1024
+        ],
+        30,
+        16,
+        16,
+        8,
+        8,
+        8,
+        8,
+        24,
+        0,
+        [
+          "127/127/23",
+          "127/127/23",
+          "127/127/23",
+          "31/30/0",
+          "31/30/0",
+          "31/30/0",
+          "127/127/23",
+          "127/127/23",
+          "127/127/23",
+          "31/30/0",
+          "31/30/0",
+          "31/30/0"
+        ]
+      ],
+      "json": "[\"glHardware\",[16384,[16384,16384],[1,1],[1,1024],30,16,16,8,8,8,8,24,0,[\"127/127/23\",\"127/127/23\",\"127/127/23\",\"31/30/0\",\"31/30/0\",\"31/30/0\",\"127/127/23\",\"127/127/23\",\"127/127/23\",\"31/30/0\",\"31/30/0\",\"31/30/0\"]]]",
+      "digest": "cba7d332c17aa8a37fcd36248c77778df550970c1bd80fead5d8d37e5dab6424"
+    },
+    {
+      "part": "glHardware",
+      "value": [
+        8192,
+        [
+          8192,
+          8192
+        ],
+        [
+          1,
+          7.375
+        ],
+        [
+          0.125,
+          8191.875
+        ],
+        15,
+        16,
+        4,
+        8,
+        8,
+        8,
+        8,
+        24,
+        8,
+        [
+          "127/127/23",
+          "127/127/23",
+          "127/127/23",
+          "15/14/0",
+          "15/14/0",
+          "31/30/0",
+          "15/15/10",
+          "15/15/10",
+          null,
+          "15/14/0",
+          "15/14/0",
+          "15/14/0"
+        ]
+      ],
+      "json": "[\"glHardware\",[8192,[8192,8192],[1,7.375],[0.125,8191.875],15,16,4,8,8,8,8,24,8,[\"127/127/23\",\"127/127/23\",\"127/127/23\",\"15/14/0\",\"15/14/0\",\"31/30/0\",\"15/15/10\",\"15/15/10\",null,\"15/14/0\",\"15/14/0\",\"15/14/0\"]]]",
+      "digest": "68c670e139e64e03aeed280f876bb20b8a236ea3f04a2e08b926d3d85ba7d603"
+    }
+  ],
+  "gpuPixels": [
+    {
+      "fill": "byte[i] = (i * 7) % 256",
+      "length": 102400,
+      "bufferSha256": "33c9b2b0a669a8b10c0acc419088a6243716c708142a0379af6002c500e3e152",
+      "digest": "6a07b18b7407bf7c71c447b11b6a09f3a306fb59bc434b6e7b5eeb824b91b67f"
+    }
+  ],
+  "keyed": [
+    {
+      "keyBase64": "AAECAwQFBgcICQoLDA0ODxAREhMUFRYXGBkaGxwdHh8=",
+      "part": "darkMode",
+      "clientDigest": "4b4c383b32e37b4886340448d1f92a3d5a03eaba578f7ec81c3ee442938ceba0",
+      "message": "part:darkMode:4b4c383b32e37b4886340448d1f92a3d5a03eaba578f7ec81c3ee442938ceba0",
+      "digest": "41d29562789361a421e144ab6c7ff2decd5daccabbfd17358e2d89ae3c6b35d7"
+    },
+    {
+      "keyBase64": "AAECAwQFBgcICQoLDA0ODxAREhMUFRYXGBkaGxwdHh8=",
+      "part": "darkMode",
+      "clientDigest": "17b556258ebfd6bc159c8bd26dff13322f7ae4f2755e27bbe455e4cb1fbb72d2",
+      "message": "part:darkMode:17b556258ebfd6bc159c8bd26dff13322f7ae4f2755e27bbe455e4cb1fbb72d2",
+      "digest": "9a509e1e097d897d6f43a190c1634c1a4bd1cb91ffdce4f4269539cf9a6ec866"
+    },
+    {
+      "keyBase64": "AAECAwQFBgcICQoLDA0ODxAREhMUFRYXGBkaGxwdHh8=",
+      "part": "physScreen",
+      "clientDigest": "c2308be6ad4d757b20061e5bc9a6549037e7cb990bf414c9e498a64f1d785ad0",
+      "message": "part:physScreen:c2308be6ad4d757b20061e5bc9a6549037e7cb990bf414c9e498a64f1d785ad0",
+      "digest": "d91d37b578fa1a18cc5ca44bd7dd8e1a7ba84121747d9f699d04a281fdf8ea8c"
+    },
+    {
+      "keyBase64": "AAECAwQFBgcICQoLDA0ODxAREhMUFRYXGBkaGxwdHh8=",
+      "part": "physScreen",
+      "clientDigest": "cfead99a7f36f082b0902743440d85e6470825a3c34be8456890b118cda6a4fc",
+      "message": "part:physScreen:cfead99a7f36f082b0902743440d85e6470825a3c34be8456890b118cda6a4fc",
+      "digest": "2463deccd79c4ef97a2c5c9aa6c8faadace45ff6923473c73d461976a33d2b95"
+    },
+    {
+      "keyBase64": "AAECAwQFBgcICQoLDA0ODxAREhMUFRYXGBkaGxwdHh8=",
+      "part": "model",
+      "clientDigest": "cdbdc5090a7858b9789d767322024c48c8f446aad1c44ac41c9fcb17e169c9b5",
+      "message": "part:model:cdbdc5090a7858b9789d767322024c48c8f446aad1c44ac41c9fcb17e169c9b5",
+      "digest": "e1eb33e68601205f141a177d6805a0fb3c2a825c7077a1da190f208945ab4677"
+    },
+    {
+      "keyBase64": "AAECAwQFBgcICQoLDA0ODxAREhMUFRYXGBkaGxwdHh8=",
+      "part": "model",
+      "clientDigest": "8b1c6ffc5fa19e049c9f04b21e1d7ded1c86735a0146a7046eb0d5fd217a886c",
+      "message": "part:model:8b1c6ffc5fa19e049c9f04b21e1d7ded1c86735a0146a7046eb0d5fd217a886c",
+      "digest": "fe4e0fde4c8b5e85b56374af814c29a7f7abf1cd46b03962de4ae245d0db77e3"
+    }
+  ],
+  "network": [
+    {
+      "keyBase64": "AAECAwQFBgcICQoLDA0ODxAREhMUFRYXGBkaGxwdHh8=",
+      "ip": "203.0.113.77",
+      "message": "net:203.0.113.0",
+      "digest": "42b7110a96cee6b176e80867d7fbf9a074962f08e6d4c416eb414aba525df529"
+    },
+    {
+      "keyBase64": "AAECAwQFBgcICQoLDA0ODxAREhMUFRYXGBkaGxwdHh8=",
+      "ip": "203.0.113.1",
+      "message": "net:203.0.113.0",
+      "digest": "42b7110a96cee6b176e80867d7fbf9a074962f08e6d4c416eb414aba525df529"
+    },
+    {
+      "keyBase64": "AAECAwQFBgcICQoLDA0ODxAREhMUFRYXGBkaGxwdHh8=",
+      "ip": "10.0.0.255",
+      "message": "net:10.0.0.0",
+      "digest": "b07c9de0db31a5bcb053928f795ee4faa3bb9b2a400d7bd69e3bd778eacb8715"
+    },
+    {
+      "keyBase64": "AAECAwQFBgcICQoLDA0ODxAREhMUFRYXGBkaGxwdHh8=",
+      "ip": "2001:db8:12:3456::1",
+      "message": "net:2001:db8:12::/48",
+      "digest": "73ca7068effd8722d5af8186786fda468a3aab9c08ed2dd78fd801eb9c23d492"
+    },
+    {
+      "keyBase64": "AAECAwQFBgcICQoLDA0ODxAREhMUFRYXGBkaGxwdHh8=",
+      "ip": "2001:0DB8:0012:0000:0000:0000:0000:0001",
+      "message": "net:2001:db8:12::/48",
+      "digest": "73ca7068effd8722d5af8186786fda468a3aab9c08ed2dd78fd801eb9c23d492"
+    },
+    {
+      "keyBase64": "AAECAwQFBgcICQoLDA0ODxAREhMUFRYXGBkaGxwdHh8=",
+      "ip": "::1",
+      "message": "net:0:0:0::/48",
+      "digest": "80b8f6bf70aedca0acef973b0efa6046025645047697dbe8ba9f66e550fd7bde"
+    },
+    {
+      "keyBase64": "AAECAwQFBgcICQoLDA0ODxAREhMUFRYXGBkaGxwdHh8=",
+      "ip": "::ffff:203.0.113.77",
+      "message": "net:203.0.113.0",
+      "digest": "42b7110a96cee6b176e80867d7fbf9a074962f08e6d4c416eb414aba525df529"
+    },
+    {
+      "keyBase64": "AAECAwQFBgcICQoLDA0ODxAREhMUFRYXGBkaGxwdHh8=",
+      "ip": "fe80::1%eth0",
+      "message": null,
+      "digest": null
+    },
+    {
+      "keyBase64": "AAECAwQFBgcICQoLDA0ODxAREhMUFRYXGBkaGxwdHh8=",
+      "ip": "203.0.113",
+      "message": null,
+      "digest": null
+    },
+    {
+      "keyBase64": "AAECAwQFBgcICQoLDA0ODxAREhMUFRYXGBkaGxwdHh8=",
+      "ip": "203.0.113.256",
+      "message": null,
+      "digest": null
+    },
+    {
+      "keyBase64": "AAECAwQFBgcICQoLDA0ODxAREhMUFRYXGBkaGxwdHh8=",
+      "ip": "not an address",
+      "message": null,
+      "digest": null
+    },
+    {
+      "keyBase64": "AAECAwQFBgcICQoLDA0ODxAREhMUFRYXGBkaGxwdHh8=",
+      "ip": "",
+      "message": null,
+      "digest": null
+    }
+  ],
+  "normalise": [
+    {
+      "fn": "rendererModel",
+      "args": [
+        "ANGLE (ARM, Mali-G57 MC2, OpenGL ES 3.2)",
+        false
+      ],
+      "out": "mali-g57 mc2",
+      "undefinedArgs": []
+    },
+    {
+      "fn": "rendererModel",
+      "args": [
+        "Mali-G57 MC2",
+        false
+      ],
+      "out": "mali-g57 mc2",
+      "undefinedArgs": []
+    },
+    {
+      "fn": "rendererModel",
+      "args": [
+        "ANGLE (Intel, Intel(R) Iris(R) Xe Graphics (0x000046A8) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+        false
+      ],
+      "out": "intel(r) iris(r) xe graphics",
+      "undefinedArgs": []
+    },
+    {
+      "fn": "rendererModel",
+      "args": [
+        "ANGLE (Qualcomm, Adreno (TM) 619, OpenGL ES 3.2)",
+        false
+      ],
+      "out": "adreno (tm) 619",
+      "undefinedArgs": []
+    },
+    {
+      "fn": "rendererModel",
+      "args": [
+        "Adreno (TM) 619",
+        false
+      ],
+      "out": "adreno (tm) 619",
+      "undefinedArgs": []
+    },
+    {
+      "fn": "rendererModel",
+      "args": [
+        "  PowerVR   Rogue GE8320 ",
+        false
+      ],
+      "out": "powervr rogue ge8320",
+      "undefinedArgs": []
+    },
+    {
+      "fn": "rendererModel",
+      "args": [
+        "Apple GPU",
+        true
+      ],
+      "out": null,
+      "undefinedArgs": []
+    },
+    {
+      "fn": "rendererModel",
+      "args": [
+        "Mali-G57 MC2",
+        true
+      ],
+      "out": null,
+      "undefinedArgs": []
+    },
+    {
+      "fn": "rendererModel",
+      "args": [
+        null,
+        false
+      ],
+      "out": null,
+      "undefinedArgs": [
+        0
+      ]
+    },
+    {
+      "fn": "isHiddenRenderer",
+      "args": [
+        "Apple GPU",
+        false
+      ],
+      "out": true,
+      "undefinedArgs": []
+    },
+    {
+      "fn": "isHiddenRenderer",
+      "args": [
+        " WebKit WebGL ",
+        false
+      ],
+      "out": true,
+      "undefinedArgs": []
+    },
+    {
+      "fn": "isHiddenRenderer",
+      "args": [
+        "Mozilla",
+        false
+      ],
+      "out": true,
+      "undefinedArgs": []
+    },
+    {
+      "fn": "isHiddenRenderer",
+      "args": [
+        "Mali-G57 MC2",
+        false
+      ],
+      "out": false,
+      "undefinedArgs": []
+    },
+    {
+      "fn": "isHiddenRenderer",
+      "args": [
+        "Mali-G57 MC2",
+        true
+      ],
+      "out": true,
+      "undefinedArgs": []
+    },
+    {
+      "fn": "isHiddenRenderer",
+      "args": [
+        null,
+        false
+      ],
+      "out": false,
+      "undefinedArgs": [
+        0
+      ]
+    },
+    {
+      "fn": "gpuClass",
+      "args": [
+        "ANGLE (ARM, Mali-G57 MC2, OpenGL ES 3.2)",
+        false
+      ],
+      "out": "mobile",
+      "undefinedArgs": []
+    },
+    {
+      "fn": "gpuClass",
+      "args": [
+        "ANGLE (NVIDIA, NVIDIA GeForce RTX 3060 Direct3D11 vs_5_0 ps_5_0, D3D11)",
+        false
+      ],
+      "out": "desktop",
+      "undefinedArgs": []
+    },
+    {
+      "fn": "gpuClass",
+      "args": [
+        "NVIDIA Tegra",
+        false
+      ],
+      "out": "mobile",
+      "undefinedArgs": []
+    },
+    {
+      "fn": "gpuClass",
+      "args": [
+        "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (Subzero) (0x0000C0DE)), SwiftShader driver)",
+        false
+      ],
+      "out": "software",
+      "undefinedArgs": []
+    },
+    {
+      "fn": "gpuClass",
+      "args": [
+        "Apple GPU",
+        true
+      ],
+      "out": "apple",
+      "undefinedArgs": []
+    },
+    {
+      "fn": "gpuClass",
+      "args": [
+        "Mozilla",
+        true
+      ],
+      "out": "hidden",
+      "undefinedArgs": []
+    },
+    {
+      "fn": "gpuClass",
+      "args": [
+        "Some Unknown Chip",
+        false
+      ],
+      "out": "other",
+      "undefinedArgs": []
+    },
+    {
+      "fn": "gpuClass",
+      "args": [
+        null,
+        false
+      ],
+      "out": null,
+      "undefinedArgs": [
+        0
+      ]
+    },
+    {
+      "fn": "physScreen",
+      "args": [
+        384,
+        854,
+        2.8125
+      ],
+      "out": [
+        1080,
+        2400
+      ],
+      "undefinedArgs": []
+    },
+    {
+      "fn": "physScreen",
+      "args": [
+        378,
+        840,
+        2.857142857142857
+      ],
+      "out": [
+        1080,
+        2400
+      ],
+      "undefinedArgs": []
+    },
+    {
+      "fn": "physScreen",
+      "args": [
+        2560,
+        1440,
+        1
+      ],
+      "out": [
+        1440,
+        2560
+      ],
+      "undefinedArgs": []
+    },
+    {
+      "fn": "physScreen",
+      "args": [
+        0,
+        800,
+        2
+      ],
+      "out": null,
+      "undefinedArgs": []
+    },
+    {
+      "fn": "physScreen",
+      "args": [
+        360,
+        800,
+        0
+      ],
+      "out": null,
+      "undefinedArgs": []
+    },
+    {
+      "fn": "deviceModel",
+      "args": [
+        "",
+        "Mozilla/5.0 (Linux; Android 16; Redmi Note 14 Build/AP3A.240905.015) AppleWebKit/537.36"
+      ],
+      "out": "redmi note 14",
+      "undefinedArgs": []
+    },
+    {
+      "fn": "deviceModel",
+      "args": [
+        null,
+        "Mozilla/5.0 (Linux; U; Android 16; en-us; Redmi Note 14 Build/AP3A.240905.015) AppleWebKit/537.36"
+      ],
+      "out": null,
+      "undefinedArgs": [
+        0
+      ]
+    },
+    {
+      "fn": "deviceModel",
+      "args": [
+        " 24117RN76G ",
+        "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36"
+      ],
+      "out": "24117rn76g",
+      "undefinedArgs": []
+    },
+    {
+      "fn": "deviceModel",
+      "args": [
+        null,
+        "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36"
+      ],
+      "out": null,
+      "undefinedArgs": [
+        0
+      ]
+    },
+    {
+      "fn": "deviceModel",
+      "args": [
+        null,
+        "Mozilla/5.0 (Linux; Android 13; SM-A546B) AppleWebKit/537.36"
+      ],
+      "out": "sm-a546b",
+      "undefinedArgs": [
+        0
+      ]
+    },
+    {
+      "fn": "deviceModel",
+      "args": [
+        null,
+        "Mozilla/5.0 (iPhone; CPU iPhone OS 19_0 like Mac OS X) AppleWebKit/605.1.15"
+      ],
+      "out": null,
+      "undefinedArgs": [
+        0
+      ]
+    },
+    {
+      "fn": "emulatorModel",
+      "args": [
+        "sdk_gphone64_x86_64"
+      ],
+      "out": true,
+      "undefinedArgs": []
+    },
+    {
+      "fn": "emulatorModel",
+      "args": [
+        "generic_x86"
+      ],
+      "out": true,
+      "undefinedArgs": []
+    },
+    {
+      "fn": "emulatorModel",
+      "args": [
+        "redmi note 14"
+      ],
+      "out": false,
+      "undefinedArgs": []
+    },
+    {
+      "fn": "emulatorModel",
+      "args": [
+        null
+      ],
+      "out": null,
+      "undefinedArgs": []
+    },
+    {
+      "fn": "osVersion",
+      "args": [
+        "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36",
+        "Android",
+        "16.0.0"
+      ],
+      "out": "android:16",
+      "undefinedArgs": []
+    },
+    {
+      "fn": "osVersion",
+      "args": [
+        "Mozilla/5.0 (Linux; Android 13; SM-A546B) AppleWebKit/537.36",
+        null,
+        null
+      ],
+      "out": "android:13",
+      "undefinedArgs": [
+        1,
+        2
+      ]
+    },
+    {
+      "fn": "osVersion",
+      "args": [
+        "Mozilla/5.0 (iPhone; CPU iPhone OS 19_0 like Mac OS X) AppleWebKit/605.1.15",
+        null,
+        null
+      ],
+      "out": "ios:19",
+      "undefinedArgs": [
+        1,
+        2
+      ]
+    },
+    {
+      "fn": "osVersion",
+      "args": [
+        "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36",
+        "Windows",
+        "15.0.0"
+      ],
+      "out": "windows:15",
+      "undefinedArgs": []
+    },
+    {
+      "fn": "osVersion",
+      "args": [
+        "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:140.0) Gecko/20100101 Firefox/140.0",
+        null,
+        null
+      ],
+      "out": null,
+      "undefinedArgs": [
+        1,
+        2
+      ]
+    },
+    {
+      "fn": "osFamily",
+      "args": [
+        "Mozilla/5.0 (Linux; Android 13; SM-A546B) AppleWebKit/537.36"
+      ],
+      "out": "android",
+      "undefinedArgs": []
+    },
+    {
+      "fn": "osFamily",
+      "args": [
+        "Mozilla/5.0 (iPad; CPU OS 18_0 like Mac OS X) AppleWebKit/605.1.15"
+      ],
+      "out": "ios",
+      "undefinedArgs": []
+    },
+    {
+      "fn": "osFamily",
+      "args": [
+        "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15"
+      ],
+      "out": "mac",
+      "undefinedArgs": []
+    },
+    {
+      "fn": "osFamily",
+      "args": [
+        "Mozilla/5.0 (X11; CrOS x86_64 14541.0.0) AppleWebKit/537.36"
+      ],
+      "out": "cros",
+      "undefinedArgs": []
+    },
+    {
+      "fn": "osFamily",
+      "args": [
+        "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36"
+      ],
+      "out": "linux",
+      "undefinedArgs": []
+    },
+    {
+      "fn": "osFamily",
+      "args": [
+        ""
+      ],
+      "out": "other",
+      "undefinedArgs": []
+    }
+  ]
+}
